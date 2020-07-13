@@ -84,16 +84,16 @@ public final class MascFrame extends javax.swing.JFrame {
         
         if(null != imagem)switch (imagem) {
             case "Imagem1":
-                jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Homem1.png"));
+                jLabel8.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Homem1.png"));
                 break;
             case "Imagem2":
-                jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Homem2.png"));
+                jLabel8.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Homem2.png"));
                 break;
             case "Imagem3":
-                jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Homem3.png"));
+                jLabel8.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Homem3.png"));
                 break;
             case "Imagem4":
-                jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Homem4.png"));
+                jLabel8.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Homem4.png"));
                 break;
             default:
                 break;

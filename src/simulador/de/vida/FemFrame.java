@@ -81,16 +81,16 @@ public class FemFrame extends javax.swing.JFrame {
         
         if(null != imagem)switch (imagem) {
             case "Imagem1":
-                jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Mulher1.png"));
+                jLabel8.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Mulher1.png"));
                 break;
             case "Imagem2":
-                jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Mulher2.png"));
+                jLabel8.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Mulher2.png"));
                 break;
             case "Imagem3":
-                jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Mulher3.png"));
+                jLabel8.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Mulher3.png"));
                 break;
             case "Imagem4":
-                jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Mulher4.png"));
+                jLabel8.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Mulher4.png"));
                 break;
             default:
                 break;

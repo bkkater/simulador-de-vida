@@ -277,30 +277,30 @@ public class ImageForm extends javax.swing.JFrame {
    void enviaSexo(Simulador aThis, String sexo) {
          if("Masculino".equals(sexo)){
              setMasc(true);
-             Label1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Homem1.png"));
+             Label1.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Homem1.png"));
              Label1.setText("");
              
-             Label2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Homem2.png"));
+             Label2.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Homem2.png"));
              Label2.setText("");
              
-             Label3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Homem3.png"));
+             Label3.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Homem3.png"));
              Label3.setText("");
              
-             Label4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Homem4.png"));
+             Label4.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Homem4.png"));
              Label4.setText("");
          }
          else if("Feminino".equals(sexo)){
              setMasc(false);
-             Label1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Mulher1.png"));
+             Label1.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Mulher1.png"));
              Label1.setText("");
              
-             Label2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Mulher2.png"));
+             Label2.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Mulher2.png"));
              Label2.setText("");
              
-             Label3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Mulher3.png"));
+             Label3.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Mulher3.png"));
              Label3.setText("");
              
-             Label4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Bianca\\Documents\\NetBeansProjects\\simulador-de-vida\\simulador-de-vida\\simulador-de-vida\\src\\Icons\\Mulher4.png"));
+             Label4.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Mulher4.png"));
              Label4.setText("");
          }
     }
