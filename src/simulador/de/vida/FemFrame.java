@@ -79,6 +79,13 @@ public class FemFrame extends javax.swing.JFrame {
         jLabel28.setVisible(false);
         jPanel24.setVisible(false);
         
+        jLabel7.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\casa.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\trabalho.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\mercado.png"));
+        jLabel29.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\academia.png"));
+        jLabel38.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\faculdade.png"));
+
+        
         if(null != imagem)switch (imagem) {
             case "Imagem1":
                 jLabel8.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\Mulher1.png"));
@@ -109,6 +116,7 @@ public class FemFrame extends javax.swing.JFrame {
            verificarMorte();
        }
        if(this.isPresidente()){
+           jLabel27.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\lider-atletica.png"));
            jLabel27.setVisible(true);
            jLabel28.setVisible(true);
        }
@@ -2118,6 +2126,7 @@ public class FemFrame extends javax.swing.JFrame {
         if(ProgressoProgressBar.getValue() == 100 && getPeriodoNum() == 8){
             JOptionPane.showMessageDialog(null, "Você se formou. \n", "Parabéns!", JOptionPane.INFORMATION_MESSAGE);
             JOptionPane.showMessageDialog(null, "Você recebe a notícia que a Riot está contratando pessoas da sua área. \n", "Mensagem", JOptionPane.INFORMATION_MESSAGE);
+            jLabel20.setIcon(new javax.swing.ImageIcon(".\\src\\Icons\\graduado.png"));
             jLabel8.setVisible(true);
             this.setStatus("Formado");
         }
